@@ -1,0 +1,107 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding-top: 800px;
+}
+
+.profile {
+    height: 300px;
+    width: 250px;
+    margin-top: 20px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+    border: 5px solid black;
+}
+
+#welcome {
+    color: #FFFFFF;
+    opacity: 0.83;
+    background: linear-gradient(#c425c4 50%, #91c410 80%);
+    position: absolute;
+    height: 800px;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    font-family: monospace;
+    font-size: 20px;
+    display: table;
+    z-index: 9;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
+    color: black;
+    font-variant: small-caps;
+}
+
+#name {
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.parallex-inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: monospace;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+#bio {
+    padding: 50px;
+    text-align: center;
+    color: brown;
+    font-family: fantasy;
+}
+
+p {
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 17px;
+    line-height: 1.3;
+}
+
+.menu {
+    list-style: none;
+    font-family: sans-serif;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 30;
+    cursor: pointer;
+}
+
+.links {
+    float: left;
+    color: cornsilk;
+    padding-top: 5px;
+    padding-right: 9px;
+    padding-left: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20px;
+
+}
+
+.links:hover {
+    background-color: darkblue;
+}
